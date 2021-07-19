@@ -7,7 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AdminComponent implements OnInit {
  
-  constructor() {}
+  constructor() {  }
+    title: String=" Admin Dashboard";
 
   ngOnInit(): void {
   }
